@@ -1,0 +1,14 @@
+---
+version: '3.5'
+
+volumes:
+  web_data:
+    external: true
+
+services:
+  app1:
+    image: nginx:alpine
+    ports:
+      - 80:80
+    volumes:
+      - web_data:/usr/share/nginx/html
