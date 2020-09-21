@@ -2,6 +2,7 @@
 
 To show an docker volume creation and used by the 2 docker container in 2 different docker compose
 
+[![Volume on host vs on container](diagram.png)]()
 ## Installation
 
 run the volume creation
